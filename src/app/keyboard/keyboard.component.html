@@ -1,0 +1,5 @@
+<div class="keyboard">
+  <div class="keyrow" *ngFor="let row of keyboard.rows;">
+    <button (click)="clickLetter(letter)" [disabled]="letter.disabled" *ngFor="let letter of row">{{letter.value}}</button>
+  </div>
+</div>

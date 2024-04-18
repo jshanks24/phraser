@@ -1,0 +1,12 @@
+.keyboard {
+  .keyrow {
+    display: flex;
+    justify-content: center;
+
+    button {
+      font-size: 32px;
+      margin: 5px;
+      width: 50px;
+    }
+  }
+}
